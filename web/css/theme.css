@@ -1,0 +1,105 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-size: 1.6rem;
+    background-color: black;
+    color: #ffffff;
+}
+
+a {
+    color: #cccccc;
+}
+
+a:hover {
+    color: #cccccc;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+.quote-image {
+    max-height: 200px;
+    max-height: 20rem;
+}
+
+blockquote {
+    background: #bbbbbb;
+    border: none;
+    border-radius: 10px;
+    border-radius: 1rem;
+    display: inline-block;
+    zoom: 1;
+    font-weight: bold;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+blockquote a:hover {
+    color: #ffffff;
+}
+
+.quote {
+    margin-top: 50px;
+    margin-top: 5rem;
+}
+
+blockquote .attribution {
+    font-size: 10px;
+    font-size: 1rem;
+}
+
+.footer {
+    border: none;
+    background-color: inherit;
+    text-align: center;
+    
+    font-size: 10px;
+    font-size: 1rem;
+}
+
+footer .navbar-nav {
+    float: none;
+    display: inline-block;
+    zoom: 1;
+    margin: 0 auto;
+}
+
+footer .navbar-nav > li {
+    margin: 0 5px;
+    margin: 0 0.5rem;
+    
+    padding: 0 15px;
+    padding: 0 1.5rem;
+    
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 0.1rem solid black;
+    border-right: 0.1rem solid black;
+}
+
+footer .nav li a {
+    display: inline-block;
+    zoom: 1;
+    padding: 0;
+}
+
+footer .nav > li > a:hover {
+    background-color: inherit;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
